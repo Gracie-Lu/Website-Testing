@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Page Title</title>
+    <title>My Webpage</title>
 </head>
-<body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<body style="background-color: pink;">
 
-<a href="https://www.w3schools.com">This is a link</a>
+    <h1>Welcome to my <i>Webpage</i></h1>
+    <p style="font-size: 25px;">This is a <b>paragraph</b>.</p>
+    <p style="color: red;">Changing text color</p>
 
-<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+    <a href="https://www.w3schools.com">This is a link</a>
 
+    <button>
+        Click Me
+    </button>
+    <style>
+        button {
+            background-color: darkred;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 2 px;
+            border: 1px solid grey;
+        }
+
+        button:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+
+    <!--<form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="/action_page2.php">Submit to another page</button>
+    </form> -->
+
+    <a href="https://www.w3schools.com" class="button-link">Click Me</a>
+    <style>
+        .button-link {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none; /* Removes the underline */
+        border-radius: 5px;
+        font-family: sans-serif;
+        }
+        .button-link:hover {
+        background-color: #0056b3;
+        }
+    </style>
+
+    <img class="flowers" src="https://images.pexels.com/photos/910645/pexels-photo-910645.jpeg?cs=srgb&dl=beautiful-beautiful-flowers-blooming-910645.jpg&fm=jpg"
+        alt="Swimming Pic">
+        <!-- The alternative text for pictures is used for visually impared -->
+    <style>
+        .flowers {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            object-fit: cover;
+        }
+    </style>
 </body>
+
 </html>
+
+
+
+<!-- things to add
+        - guest book
+        - changing themes (dark vs light)
+        - I like this one: https://irony-machine.neocities.org/
+        - loading screen
+-->
